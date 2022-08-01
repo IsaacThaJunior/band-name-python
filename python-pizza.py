@@ -14,13 +14,13 @@ elif size == 'L':
     your_bill += 20
 
 if add_pepperoni == 'Y':
-  if size == 'S':
-    your_bill += 2
-  else:
-    your_bill += 3
+    if size == 'S':
+        your_bill += 2
+    else:
+        your_bill += 3
 
 if extra_cheese == 'Y':
-  your_bill += 1
+    your_bill += 1
 
 
 print(f'Your bill is ${your_bill}')
