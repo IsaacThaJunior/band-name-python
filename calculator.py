@@ -17,6 +17,7 @@ operations = {
     '*': multiply,
     '/': divide,
 }
+
 def calculator():
   should_continue = True
 
