@@ -15,6 +15,7 @@ print(logo)
 
 # Create blanks
 display = []
+print(f'The chosen word is {chosen_word}')
 for _ in range(word_length):
     display += "_"
 
