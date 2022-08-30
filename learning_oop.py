@@ -1,9 +1,10 @@
-class User: 
-  pass
+class User:
+    def __init__(self):
+        print('Initialized')
 
 
 user1 = User()
 
 user1.name = 'Isaac'
 
-print(user1.name)
+user2 = User()
