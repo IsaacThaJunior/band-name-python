@@ -1,10 +1,10 @@
 class User:
-    def __init__(self):
-        print('Initialized')
+    def __init__(self, name, you):
+        self.name = name
+        self.you = you
 
 
-user1 = User()
+user1 = User('Isaac', 'C2')
 
-user1.name = 'Isaac'
-
-user2 = User()
+print(user1.name)
+print(user1.you)
